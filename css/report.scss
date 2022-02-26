@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#index-i{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style: none none solid none;
+    border: 2px solid rgba(128, 128, 128, 0.329);
+}
+// 导航栏
+    .index-top{
+        width: 1000px;
+        float: left;
+        .index-top-1{
+            width: 1000px;
+            padding: 10px 0;
+            float: left;
+            .index-top-a{
+                
+                float: left;
+                div{
+                    float: left;
+                    img{
+                        width: 150px;
+                    }
+                }
+                ul{
+                    float: left;
+                    li{
+                        font-size: 18px;
+                        width: 50px;
+                        float: left;
+                        padding: 30px 0 0 0;
+                        margin-left: 50px;
+                    }
+                    li:nth-child(5){
+                        a{
+                            color: red;
+                        }
+                    }
+                }
+            }
+            .index-top-b{
+                padding-top: 31px;
+                float: right;
+                .index-top-b-magnifier{
+                    width: 50px;
+                    float: left;
+                    img{
+                        width: 30px;
+                    }
+                }
+                .index-top-b-input{
+                    float: left;
+                    input{
+                        width: 60px;
+                        height: 30px;
+                        border: 1px solid red;
+                        border-radius: 5px;
+                        background-color: white;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+
+// 标题
+.index-guid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .index-guid-1{
+        padding: 20px 0;
+        font-size: 40px;
+    }
+    .index-guid-2{
+        width: 300px;
+        div{
+            width: 150px;
+            padding: 5px 0;
+            float: left;
+            text-align: center;
+        }
+    }
+}
+.index-guid-red{
+    border-bottom: 4px solid red;
+}
+
+// 内容
+.report-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e9e5e579;
+    .report-zhong{
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        .report-xin{
+            width: 640px;
+            padding: 30px 0;
+            .report-div1{
+                width: 100%;
+                background: rgba(128, 128, 128, 0.158);
+                padding-bottom: 10px;
+                .report-img{
+                    width: 640px;
+                    height: 377px;
+                }
+                .report-text{
+                    display: inline-block;
+                    width: 620px;
+                    padding: 10px;
+                }
+                .report-div2{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 10px;
+                    .report-div2-left{
+                        width: 200px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .report-div2-left-1{
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                        }
+                        span{
+                            color: red;
+                            padding: 0 10px;
+                        }
+                    }
+                    .report-div2-right{
+                        width: 80px;
+                    }
+                }
+            }         
+        }
+    }
+}
+
+.report-text-2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    margin: 10px 0;
+    color: rgba(134, 128, 128, 0.596);
+}
+
+.report-right{
+    width: 300px;
+    padding-top: 30px;
+    .report-right-span{
+        padding-bottom: 20px;
+        font-size: 18px;
+        span{
+            border-left: 6px solid red;
+            padding-right: 20px;
+        }
+    }
+    img{
+        width: 300px;
+    }
+    .report-right-div{
+        span{
+            display: inline-block;
+            font-weight: 600;
+            padding: 10px 0;
+        }
+        div{
+            font-size: 14px;
+            color: gray;
+        }
+    }
+
+}
+.pato{
+    padding-top: 50px;
+}
+
+
+
+.report-dot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    .report-jiazai{
+        width: 640px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        img{
+            width: 20px;
+            height: 15px;
+        }
+    }
+}
+
+// 底部
+.index-bot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #505050;
+    .index-bottom{
+        width: 1000px;
+        float: left;
+        padding-top: 20px;
+        color: #787272;
+        img{
+            float: left;
+        }
+        .index-bot-div{
+            width: 140px;
+            float: left;
+            padding-left: 10px;
+            img{
+                width: 140px;
+            }
+            span{
+                display: inline-block;
+                padding-top: 25px;
+                font-size: 13px;
+            }
+        }
+        ul{
+            float: left;
+            width: 660px;
+            padding-left: 10px;
+            .index-bot-li-1{
+                width: 160px;
+                height: 300px;
+                float: left;
+                font-size: 18px;
+                color: white;
+                ul{
+                    width: 150px;
+                    padding: 0;
+                    padding-top: 30px;
+                    li{
+                        width: 167px;
+                        font-size: 13px;
+                        color: #787272;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

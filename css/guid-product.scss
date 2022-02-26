@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e9e5e579;
+}
+#index-i{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style: none none solid none;
+    border: 2px solid rgba(128, 128, 128, 0.329);
+    background: white;
+}
+// 导航栏
+    .index-top{
+        width: 1000px;
+        float: left;
+        .index-top-1{
+            width: 1000px;
+            padding: 10px 0;
+            float: left;
+            .index-top-a{
+                
+                float: left;
+                div{
+                    float: left;
+                    img{
+                        width: 150px;
+                    }
+                }
+                ul{
+                    float: left;
+                    li{
+                        font-size: 18px;
+                        width: 50px;
+                        float: left;
+                        padding: 30px 0 0 0;
+                        margin-left: 50px;
+                    }
+                    li:nth-child(3){
+                        a{
+                            color: red;
+                        }
+                    }
+                }
+            }
+            .index-top-b{
+                padding-top: 31px;
+                float: right;
+                .index-top-b-magnifier{
+                    width: 50px;
+                    float: left;
+                    img{
+                        width: 30px;
+                    }
+                }
+                .index-top-b-input{
+                    float: left;
+                    input{
+                        width: 60px;
+                        height: 30px;
+                        border: 1px solid red;
+                        border-radius: 5px;
+                        background-color: white;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+
+
+.guid-product{
+    width: 1000px;
+    
+}
+.guid-product-1{
+    width: 1000px;
+    padding: 10px 0;
+    font-size: 12px;
+    color: gray;
+}
+.guid-product-2{
+    width: 700px;
+    float: left;
+    background: white;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    .guid-product-3{
+        padding: 0 20px 20px;
+        .guid-product-4{
+            width: 100%;
+            display: inline-block;
+            line-height: 70px;
+            font-size: 24px;
+        }
+        .guid-product-5{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: gray;
+            .guid-product-tx{
+                width: 100px;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                div{
+                    width: 50px;
+                    height: 50px;
+                    border: 1px solid;
+                    border-radius: 100%;
+                    overflow: hidden;
+                    float: left;
+                }
+            }
+            .guid-product-time{
+                width: 100px;
+            }
+        }
+    }
+}
+.pato{
+    padding-top: 20px;
+}
+.pado{
+    padding-bottom: 20px;
+}
+.patd{
+    padding: 20px 0;
+}
+.guid-product-33{
+    width: 660px;
+    padding: 20px;
+    float: left;
+    background: white;
+    border-radius: 5px;
+    .guid-product-text{
+        width: 100%;
+        font-size: 14px;
+    }
+    img{
+        width: 660px;
+    }
+    .guid-product-nb{
+        width: 660px;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 3px 0;
+    }
+}
+.guid-product-Lamy{
+    width: 100%;
+    font-size: 14px;
+}
+.color{
+    color: gray;
+}
+
+.guid-product-right{
+    width: 250px;
+    height: 120px;
+    float: right;
+    background: white;
+    border: 1px solid #726e6e63;
+    border-radius: 5px;
+    .guid-product-2-left{
+        width: 124px;
+        height: 120px;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .guid-product-xin{
+            padding-bottom: 5px;
+        }
+        border: 1px solid #726e6e63;
+        border-style: none solid none none;
+    }
+    .guid-product-2-right{
+        width: 50%;
+        height: 120px;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .guid-product-share{
+            padding-bottom: 5px;
+        }
+    }
+
+}
+
+// 底部
+.index-bot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #505050;
+    .index-bottom{
+        width: 1000px;
+        float: left;
+        padding-top: 20px;
+        color: #787272;
+        img{
+            float: left;
+        }
+        .index-bot-div{
+            width: 140px;
+            float: left;
+            padding-left: 10px;
+            img{
+                width: 140px;
+            }
+            span{
+                display: inline-block;
+                padding-top: 25px;
+                font-size: 13px;
+            }
+        }
+        ul{
+            float: left;
+            width: 660px;
+            padding-left: 10px;
+            .index-bot-li-1{
+                width: 160px;
+                height: 300px;
+                float: left;
+                font-size: 18px;
+                color: white;
+                ul{
+                    width: 150px;
+                    padding: 0;
+                    padding-top: 30px;
+                    li{
+                        width: 167px;
+                        font-size: 13px;
+                        color: #787272;
+                    }
+                }
+            }
+        }
+    }
+}

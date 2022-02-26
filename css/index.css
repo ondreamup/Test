@@ -1,0 +1,171 @@
+* { padding: 0; margin: 0; }
+
+a { text-decoration: none; color: black; }
+
+ul { list-style: none; padding: 0; }
+
+#index-i { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.index-top { width: 1000px; float: left; }
+
+.index-top .index-top-1 { width: 1000px; padding: 10px 0; float: left; }
+
+.index-top .index-top-1 .index-top-a { float: left; }
+
+.index-top .index-top-1 .index-top-a div { float: left; }
+
+.index-top .index-top-1 .index-top-a div img { width: 150px; }
+
+.index-top .index-top-1 .index-top-a ul { float: left; }
+
+.index-top .index-top-1 .index-top-a ul li { font-size: 18px; width: 50px; float: left; padding: 30px 0 0 0; margin-left: 50px; }
+
+.index-top .index-top-1 .index-top-a ul li:nth-child(1) a { color: red; }
+
+.index-top .index-top-1 .index-top-b { padding-top: 31px; float: right; }
+
+.index-top .index-top-1 .index-top-b .index-top-b-magnifier { width: 50px; float: left; }
+
+.index-top .index-top-1 .index-top-b .index-top-b-magnifier img { width: 30px; }
+
+.index-top .index-top-1 .index-top-b .index-top-b-input { float: left; }
+
+.index-top .index-top-1 .index-top-b .index-top-b-input input { width: 60px; height: 30px; border: 1px solid red; border-radius: 5px; background-color: white; color: red; }
+
+.index-2 { width: 100%; height: 300px; background: url(/img/original.jpg) -200px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.index-2 .index-2-a { width: 1000px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.index-2 .index-2-a .index-xiaobei { width: 315px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+
+.index-2 .index-2-a .index-xiaobei .index-yin { color: white; font-size: 34px; }
+
+.index-2 .index-2-a .index-xiaobei .index-ren { width: 100%; float: left; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; margin-top: 20px; }
+
+.index-2 .index-2-a .index-xiaobei .index-ren div { padding: 5px 10px; margin-right: 10px; background: rgba(255, 255, 255, 0.253); color: white; float: left; }
+
+.index-2 .index-2-a .index-xiaobei .index-shijian { width: 100%; float: left; font-size: 18px; color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; margin-top: 20px; }
+
+.index-2 .index-2-a .index-xiaobei input { width: 250px; height: 50px; font-size: 20px; background: red; color: white; border: none; border-radius: 3px; margin-top: 20px; }
+
+.index-re { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.index-re .index-re-men { width: 1000px; position: relative; }
+
+.index-re .index-re-men .index-re-shou { width: 100%; font-size: 18px; padding: 15px 0; }
+
+.index-re .index-re-men .index-re-tu { height: 300px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-line-pack: center; align-content: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; }
+
+.index-re .index-re-men .index-re-tu ul { width: 1000px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.index-re .index-re-men .index-re-tu ul li { width: 220px; position: relative; border: 1px solid rgba(180, 173, 173, 0.377); float: left; border-radius: 4px; margin: 0 15px; }
+
+.index-re .index-re-men .index-re-tu ul li img { width: 220px; }
+
+.index-re .index-re-men .index-re-tu ul li .index-re-text { width: 100%; font-size: 18px; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.index-re .index-re-men .index-re-tu ul li div { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+
+.index-re .index-re-men .index-re-tu ul li div span { padding: 3px 10px; background: white; border: 1px solid red; color: red; border-radius: 3px; }
+
+.index-re .index-re-men .index-re-tu ul li .index-re-1 { display: inline-block; width: 100%; font-size: 16px; color: red; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 5px 0; }
+
+.index-re .index-re-men .index-re-tu ul li .index-re-2 { display: inline-block; width: 100%; font-size: 16px; color: red; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 5px 0; }
+
+.index-re .index-re-men .index-re-tu ul li .index-re-3 { position: absolute; width: 40px; top: 0; right: 0; border: 1px solid red; background: red; font-size: 13px; color: white; border-radius: 3px; }
+
+.index-re .index-re-men .index-re-left { position: absolute; width: 80px; height: 356px; top: 0; left: -80px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.index-re .index-re-men .index-re-right { position: absolute; width: 80px; height: 356px; right: -80px; top: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.index-bao { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: rgba(172, 160, 160, 0.212); }
+
+.index-bao .index-bao-a { width: 1000px; }
+
+.index-bao .index-bao-a .index-bao-b { width: 100%; padding: 10px 0; float: left; }
+
+.index-bao .index-bao-a .index-bao-b .index-bao-top { float: left; font-weight: 600; font-size: 18px; }
+
+.index-bao .index-bao-a .index-bao-b .index-bao-right { float: right; color: red; }
+
+.index-bao .index-bao-a .index-bao-c { width: 1000px; float: left; }
+
+.index-bao .index-bao-a .index-bao-c ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-line-pack: center; align-content: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.index-bao .index-bao-a .index-bao-c ul li { width: 220px; background: white; border-radius: 4px; float: left; margin-bottom: 20px; overflow: hidden; }
+
+.index-bao .index-bao-a .index-bao-c ul li .index-bao-img { width: 220px; height: 130px; }
+
+.index-bao .index-bao-a .index-bao-c ul li .index-bao-text { width: 100%; margin: 10px 0; font-size: 14px; }
+
+.index-bao .index-bao-a .index-bao-c ul li .index-bao-1 { width: 220px; margin-top: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; color: rgba(151, 142, 142, 0.438); margin-bottom: 10px; }
+
+.index-bao .index-bao-a .index-bao-c ul li .index-bao-1 .index-bao-1-1 { display: inline-block; width: 100px; }
+
+.index-bao .index-bao-a .index-bao-c ul li .index-bao-1 .index-bao-1-2 { display: inline-block; width: 60px; }
+
+.index-bao .index-bao-a .index-bao-c ul li .index-bao-1 .index-bao-1-2 img { width: 15px; }
+
+.index-bug { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.index-bug .index-bao-a { width: 1000px; }
+
+.index-bug .index-bao-a .index-bao-b { width: 1000px; padding: 10px 0; float: left; }
+
+.index-bug .index-bao-a .index-bao-b .index-bao-top { float: left; font-weight: 600; font-size: 18px; }
+
+.index-bug .index-bao-a .index-bao-b .index-bao-right { float: right; color: red; }
+
+.index-bug .index-bao-a .index-bug-c { width: 1000px; }
+
+.index-bug .index-bao-a .index-bug-c ul { width: 1000px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-line-pack: center; align-content: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-bottom: 20px; }
+
+.index-bug .index-bao-a .index-bug-c ul li { width: 220px; border: 1px solid rgba(128, 128, 128, 0.438); float: left; border-radius: 4px; }
+
+.index-bug .index-bao-a .index-bug-c ul li .index-bug-img { width: 220px; height: 130px; }
+
+.index-bug .index-bao-a .index-bug-c ul li .index-bug-text { width: 220px; font-size: 14px; margin: 10px 0; }
+
+.index-bug .index-bao-a .index-bug-c ul li .index-bug-1 { width: 220px; margin: 10px 0; float: left; }
+
+.index-bug .index-bao-a .index-bug-c ul li .index-bug-1 .index-bug-1-1 { width: 60px; float: right; }
+
+.index-bao-play-1 { width: 1000px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-line-pack: center; align-content: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.index-bao-play-1 .index-bao-play-1-li { width: 220px; float: left; border: 1px solid rgba(155, 147, 147, 0.438); margin-bottom: 10px; }
+
+.index-bao-play-1 .index-bao-play-1-li .index-bao-play-1-img { width: 220px; height: 125px; }
+
+.index-bao-play-1 .index-bao-play-1-li .index-bao-play-1-span-1 { display: inline-block; width: 220px; height: 40px; font-size: 14px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.index-bao-play-1 .index-bao-play-1-li .index-bao-play-1-span-2 { display: inline-block; width: 220px; font-size: 13px; }
+
+.index-bao-play-1 .index-bao-play-1-li .index-bao-play-1-div { width: 220px; padding: 10px 0; }
+
+.index-bao-play-1 .index-bao-play-1-li .index-bao-play-1-div span { display: inline-block; width: 60px; color: red; }
+
+.index-bao-play-1 .index-bao-play-1-li .index-bao-play-1-div div { width: 50px; float: right; }
+
+.index-bao-play-more { width: 1000px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.index-bao-play-more .index-bao-play-more-1 { line-height: 50px; color: red; }
+
+.index-bot { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: #505050; }
+
+.index-bot .index-bottom { width: 1000px; float: left; padding-top: 20px; color: #787272; }
+
+.index-bot .index-bottom img { float: left; }
+
+.index-bot .index-bottom .index-bot-div { width: 140px; float: left; padding-left: 10px; }
+
+.index-bot .index-bottom .index-bot-div img { width: 140px; }
+
+.index-bot .index-bottom .index-bot-div span { display: inline-block; padding-top: 25px; font-size: 13px; }
+
+.index-bot .index-bottom ul { float: left; width: 660px; padding-left: 10px; }
+
+.index-bot .index-bottom ul .index-bot-li-1 { width: 160px; height: 300px; float: left; font-size: 18px; color: white; }
+
+.index-bot .index-bottom ul .index-bot-li-1 ul { width: 150px; padding: 0; padding-top: 30px; }
+
+.index-bot .index-bottom ul .index-bot-li-1 ul li { width: 167px; font-size: 13px; color: #787272; }

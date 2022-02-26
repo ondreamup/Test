@@ -1,0 +1,109 @@
+* { padding: 0; margin: 0; }
+
+a { text-decoration: none; color: black; }
+
+ul { list-style: none; padding: 0; }
+
+body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#index-i { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; border-style: none none solid none; border: 2px solid rgba(128, 128, 128, 0.329); }
+
+.index-top { width: 1000px; float: left; }
+
+.index-top .index-top-1 { width: 1000px; padding: 10px 0; float: left; }
+
+.index-top .index-top-1 .index-top-a { float: left; }
+
+.index-top .index-top-1 .index-top-a div { float: left; }
+
+.index-top .index-top-1 .index-top-a div img { width: 150px; }
+
+.index-top .index-top-1 .index-top-a ul { float: left; }
+
+.index-top .index-top-1 .index-top-a ul li { font-size: 18px; width: 50px; float: left; padding: 30px 0 0 0; margin-left: 50px; }
+
+.index-top .index-top-1 .index-top-a ul li:nth-child(5) a { color: red; }
+
+.index-top .index-top-1 .index-top-b { padding-top: 31px; float: right; }
+
+.index-top .index-top-1 .index-top-b .index-top-b-magnifier { width: 50px; float: left; }
+
+.index-top .index-top-1 .index-top-b .index-top-b-magnifier img { width: 30px; }
+
+.index-top .index-top-1 .index-top-b .index-top-b-input { float: left; }
+
+.index-top .index-top-1 .index-top-b .index-top-b-input input { width: 60px; height: 30px; border: 1px solid red; border-radius: 5px; background-color: white; color: red; }
+
+.index-guid { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.index-guid .index-guid-1 { padding: 20px 0; font-size: 40px; }
+
+.index-guid .index-guid-2 { width: 300px; }
+
+.index-guid .index-guid-2 div { width: 150px; padding: 5px 0; float: left; text-align: center; }
+
+.index-guid-red { border-bottom: 4px solid red; }
+
+.report-1 { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background: #e9e5e579; }
+
+.report-1 .report-zhong { width: 1000px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.report-1 .report-zhong .report-xin { width: 640px; padding: 30px 0; }
+
+.report-1 .report-zhong .report-xin .report-div1 { width: 100%; background: rgba(128, 128, 128, 0.158); padding-bottom: 10px; }
+
+.report-1 .report-zhong .report-xin .report-div1 .report-img { width: 640px; height: 377px; }
+
+.report-1 .report-zhong .report-xin .report-div1 .report-text { display: inline-block; width: 620px; padding: 10px; }
+
+.report-1 .report-zhong .report-xin .report-div1 .report-div2 { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding-top: 10px; }
+
+.report-1 .report-zhong .report-xin .report-div1 .report-div2 .report-div2-left { width: 200px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.report-1 .report-zhong .report-xin .report-div1 .report-div2 .report-div2-left .report-div2-left-1 { width: 50px; height: 50px; border-radius: 50%; overflow: hidden; }
+
+.report-1 .report-zhong .report-xin .report-div1 .report-div2 .report-div2-left span { color: red; padding: 0 10px; }
+
+.report-1 .report-zhong .report-xin .report-div1 .report-div2 .report-div2-right { width: 80px; }
+
+.report-text-2 { width: 100%; height: 40px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border: 1px solid; margin: 10px 0; color: rgba(134, 128, 128, 0.596); }
+
+.report-right { width: 300px; padding-top: 30px; }
+
+.report-right .report-right-span { padding-bottom: 20px; font-size: 18px; }
+
+.report-right .report-right-span span { border-left: 6px solid red; padding-right: 20px; }
+
+.report-right img { width: 300px; }
+
+.report-right .report-right-div span { display: inline-block; font-weight: 600; padding: 10px 0; }
+
+.report-right .report-right-div div { font-size: 14px; color: gray; }
+
+.pato { padding-top: 50px; }
+
+.report-dot { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding-bottom: 40px; }
+
+.report-dot .report-jiazai { width: 640px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: red; }
+
+.report-dot .report-jiazai img { width: 20px; height: 15px; }
+
+.index-bot { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: #505050; }
+
+.index-bot .index-bottom { width: 1000px; float: left; padding-top: 20px; color: #787272; }
+
+.index-bot .index-bottom img { float: left; }
+
+.index-bot .index-bottom .index-bot-div { width: 140px; float: left; padding-left: 10px; }
+
+.index-bot .index-bottom .index-bot-div img { width: 140px; }
+
+.index-bot .index-bottom .index-bot-div span { display: inline-block; padding-top: 25px; font-size: 13px; }
+
+.index-bot .index-bottom ul { float: left; width: 660px; padding-left: 10px; }
+
+.index-bot .index-bottom ul .index-bot-li-1 { width: 160px; height: 300px; float: left; font-size: 18px; color: white; }
+
+.index-bot .index-bottom ul .index-bot-li-1 ul { width: 150px; padding: 0; padding-top: 30px; }
+
+.index-bot .index-bottom ul .index-bot-li-1 ul li { width: 167px; font-size: 13px; color: #787272; }
