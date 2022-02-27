@@ -101,8 +101,7 @@ $(function(){
             $.post('http://192.168.31.110:3000/users/register',{
                 phone:ar,
                 name:aar,
-                password:aaar
-            
+                password:aaar           
             });
             // console.log($(a),ar,aar,aaar);
         }

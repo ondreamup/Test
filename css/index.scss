@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+.clear{
+    clear: both;
+    height: 0%;
+    width: 0%;
+}
 a{
     text-decoration: none;
     color: black;
@@ -43,7 +48,7 @@ ul{
                         padding: 30px 0 0 0;
                         margin-left: 50px;
                     }
-                    li:nth-child(1){
+                    li:nth-child(4){
                         a{
                             color: red;
                         }
@@ -73,14 +78,16 @@ ul{
                 }
             }
         }
+        overflow: hidden;
     }
 
 .index-2{
     width: 100%;
     height: 300px;
-    background: url(/img/original.jpg) -200px ;
+    background: url(../素材/图片/css/img/original.jpg) -200px ;
     display: flex;
     justify-content: center;
+    overflow: hidden;
     .index-2-a{
         width: 1000px;
         display: flex;
@@ -118,6 +125,7 @@ ul{
                 display: flex;
                 justify-content: flex-end;
                 margin-top: 20px;
+                overflow: hidden;
             }
             input{
                 width: 250px;
@@ -128,361 +136,208 @@ ul{
                 border: none;
                 border-radius: 3px;
                 margin-top: 20px;
+                overflow: hidden;
             }
         }
-
+        
     }
 }
-
-// 热门试用
-.index-re{
+.group{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    .index-re-men{
+    height: 100px;
+    background: #f0f0f0;
+    padding-top: 20px;
+    div{
+        :nth-child(1){
+            width: 70px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        height: 80px;
+        border-left: 8px solid red;
         width: 1000px;
-        position: relative;
-        .index-re-shou{
-            width: 100%;
-            font-size: 18px;
-            padding: 15px 0;
-        }
-        .index-re-tu{
-            height: 300px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-content: center;
-            justify-content: space-between;
-            align-items: center;
-            overflow: hidden;
-            ul{
-                width: 1000px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                li{
-                    width: 220px;
-                    position: relative;
-                    border: 1px solid rgba(180, 173, 173, 0.377);
-                    float: left;
-                    border-radius: 4px;
-                    margin: 0 15px;
-                    
-                    img{width: 220px;}
-                    .index-re-text{
-                        width: 100%;
-                        font-size: 18px;
-                        display: flex;
-                    }
-                    div{
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-evenly;
-                        span{
-                            padding: 3px 10px;
-                            background: white;
-                            border: 1px solid red;
-                            color: red;
-                            border-radius: 3px;
-                        }
-                    }
-                    .index-re-1{
-                        display: inline-block;
-                        width: 100%;
-                        font-size: 16px;
-                        color: red;
-                        display: flex;
-                        justify-content: center;
-                        padding: 5px 0;
-                    }
-                    .index-re-2{
-                        display: inline-block;
-                        width: 100%;
-                        font-size: 16px;
-                        color: red;
-                        display: flex;
-                        justify-content: center;
-                        padding: 5px 0;
-                    }
-                    .index-re-3{
-                        position: absolute;
-                        width: 40px;
-                        top: 0;
-                        right: 0;
-                        border: 1px solid red;
-                        background: red;
-                        font-size: 13px;
-                        color: white;
-                        border-radius: 3px;
-                    }
-                }
-            }
-        }
-        .index-re-left{
-            position: absolute;
-            width: 80px;
-            height: 356px;
-            top: 0; left: -80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .index-re-right{
-            position: absolute;
-            width: 80px;
-            height: 356px;
-            right: -80px;
-            top: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-}
-
-// 报告精选
-.index-bao{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background: rgba(172, 160, 160, 0.212);
-    .index-bao-a{
-        width: 1000px;
-        .index-bao-b{
-            width: 100%;
-            padding: 10px 0;
-            float: left;
-            .index-bao-top{
-                float: left;
-                font-weight: 600;
-                font-size: 18px;
-            }
-            .index-bao-right{
-                float: right;
-                color: red;
-            }
-        }
-        .index-bao-c{
-            width: 1000px;
-            float: left;
-            ul{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-content: center;
-                justify-content: space-between;
-                align-items: center;
-                li{
-                    width: 220px;
-                    background: white;
-                    border-radius: 4px;
-                    float: left;
-                    margin-bottom: 20px;
-                    overflow: hidden;
-                    .index-bao-img{
-                        width: 220px;
-                        height: 130px;
-                    }
-                    .index-bao-text{
-                        width: 100%;
-                        margin: 10px 0;
-                        font-size: 14px;
-                    }
-                    .index-bao-1{
-                        width: 220px;
-                        margin-top: 20px;
-                        display: flex;
-                        justify-content: space-between;
-                        color: rgba(151, 142, 142, 0.438);
-                        margin-bottom: 10px;
-                        .index-bao-1-1{
-                            display: inline-block;
-                            width: 100px;
-                       }
-                        .index-bao-1-2{
-                            display: inline-block;
-                            width: 60px;
-                            img{
-                                width: 15px;
-                            }
-                        }
-                    }
-
-                }   
-            }
-        }
-    }
-}
-// 导购精选
-.index-bug{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    .index-bao-a{
-        width: 1000px;
-        // display: flex;
-        // justify-content: center;
-        .index-bao-b{
-            width: 1000px;
-            padding: 10px 0;
-            float: left;
-            .index-bao-top{
-                float: left;
-                font-weight: 600;
-                font-size: 18px;
-            }
-            .index-bao-right{
-                float: right;
-                color: red;
-            }
-        }
-        .index-bug-c{
-            width: 1000px;
-            ul{
-                width: 1000px;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-content: center;
-                justify-content: space-between;
-                align-items: center;
-                padding-bottom: 20px ;
-                li{
-                    width: 220px;
-                    border: 1px solid rgba(128, 128, 128, 0.438);
-                    float: left;
-                    border-radius: 4px;
-                    .index-bug-img{
-                        width: 220px;
-                        height: 130px;
-                        
-                    }
-                    .index-bug-text{
-                        width: 220px;
-                        font-size: 14px;
-                        margin: 10px 0;
-                    }
-                    .index-bug-1{
-                        width: 220px;
-                        margin: 10px 0;
-                        float: left;
-                        .index-bug-1-1{
-                            width: 60px;
-                            float: right;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-.index-bao-play-1{
-    width: 1000px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-
-    .index-bao-play-1-li{
-        width: 220px;
-        float: left;
-        border: 1px solid rgba(155, 147, 147, 0.438);
-        margin-bottom: 10px;
-        .index-bao-play-1-img{
-            width: 220px;
-            height: 125px;
-        }
-        .index-bao-play-1-span-1{
-            display: inline-block;
-            width: 220px;
-            height: 40px;
-            font-size: 14px;
-            display: flex;
-            align-items: center;
-        }
-        .index-bao-play-1-span-2{
-            display: inline-block;
-            width: 220px;
-            font-size: 13px;
-        }
-        .index-bao-play-1-div{
-            width: 220px;
-            padding: 10px 0;
-            span{
-                display: inline-block;
-                width: 60px;
-                color: red;
-            }
-            div{
-                width: 50px;
-                float: right;
-            }
-        }
-    }
-}
-
-.index-bao-play-more{
-    width: 1000px;
-    display: flex;
-    justify-content: center;
-    .index-bao-play-more-1{
-        line-height: 50px;
-        color: red;
-    }   
-}
-// 底部
-.index-bot{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background: #505050;
-    .index-bottom{
-        width: 1000px;
-        float: left;
-        padding-top: 20px;
-        color: #787272;
-        img{
-            float: left;
-        }
-        .index-bot-div{
-            width: 140px;
-            float: left;
-            padding-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0% auto;
+        span{
+            margin-left: 20px;
             img{
-                width: 140px;
-            }
-            span{
-                display: inline-block;
-                padding-top: 25px;
-                font-size: 13px;
-            }
-        }
-        ul{
-            float: left;
-            width: 660px;
-            padding-left: 10px;
-            .index-bot-li-1{
-                width: 160px;
-                height: 300px;
-                float: left;
-                font-size: 18px;
-                color: white;
-                ul{
-                    width: 150px;
-                    padding: 0;
-                    padding-top: 30px;
-                    li{
-                        width: 167px;
-                        font-size: 13px;
-                        color: #787272;
-                    }
-                }
+                width: 30px;
+                height: 50px;
+                margin-bottom: 10px;
             }
         }
     }
 }
+.box{
+    width: 1000px;
+    margin: 0% auto;
+    .leftBox{
+        width: 700px;
+        *{
+            margin-bottom: 40px;
+        }
+    }
+    .title{
+        margin:  40px 0;
+        font-size: 25px;
+        border-left: 5px solid red;
+        padding-left: 5px;
+    }
+    p{
+        font-size: 30px;
+        color: red;
+    }
+    .title1{
+        color: #007cb8;
+    }
+    .title2{
+        font-size: 20px;
+        color: red;
+        margin-bottom: 10px;
+    }
+    .lc{
+        font-size: 20px;
+        color: black;
+        margin-bottom: -30px;
+    }
+    .lc1{
+        @extend .lc;
+        margin-bottom: 0px;
+    }
+}
+.title3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
 
+}
+#hot{
+    margin: 40px 0px 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .tit{
+        color: red;
+    }
+}
+.banner{
+    width: 1000px;
+}
+.leftBox,.rightBox{
+    float: left;
+}
+.rightBox{
+    width: 280px;
+    margin-left: 20px;
+    *{
+        margin: 0% auto;
+    }
+    #button{
+        border-radius: 10px;
+        margin-top: 30px;
+        width: 200px;
+        background: red;
+        color: white;
+        line-height: 50px;
+        text-align: center;
+    }
+    h2{
+        color: black;
+    }
+}
+.con2{
+    font-size: 15px;
+    color: gray;
+}
+
+.bottom{
+    width: 100%;
+    background: #505050;
+    .content{
+
+        div{
+            li{
+                margin-bottom: 20px;
+            }
+            color: #a7a4a5;
+            font-size: 11px;
+            width: 160px;
+            span{
+                display: inline-block;
+                font-size: 20px;
+                color: white;
+                margin-bottom: 30px;
+            }
+            .yqlj>li{
+                margin-bottom: -30px;
+                span{
+                    width: 50%;
+                    color: #a7a4a5;
+                    font-size: 11px;
+                }
+            }
+            .gmgl>li{
+                margin-bottom: 0px;
+            } 
+        } 
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        width: 1100px;
+        margin: 0% auto;
+        overflow: hidden;
+    }
+    #end{
+        margin-top: 80px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #a7a4a5;
+    }
+}
+.goods{
+    p{
+        height: 30px;
+        font-weight: bold;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    #goodsPri{
+        margin-left: 10px;
+        color: red;
+        font-size: 20px;
+    }
+    img{
+        width: 230px;
+        height: 150px;
+        border-radius: 5px 5px 0px 0px;
+    }
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        div{
+            line-height: 30px;
+            width: 50%;
+            justify-content: end;
+            margin-right: 10px;
+            span{
+                color: #a7a4a5;    
+            }
+        }
+    .like{
+        position: relative;
+        top: 8px;
+        width: 15px;
+        height: 15px
+    }
+    }
+    float: left;
+    background: white;
+    border-radius: 5px;
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    overflow: hidden;
+}
 
