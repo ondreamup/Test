@@ -104,6 +104,7 @@ $(function(){
                 password:aaar           
             });
             // console.log($(a),ar,aar,aaar);
+            window.location.href="record.html";
         }
         
         

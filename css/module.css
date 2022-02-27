@@ -1,190 +1,75 @@
-.clear {
-  clear: both;
-  height: 0%;
-  width: 0%;
-}
+.clear { clear: both; height: 0%; width: 0%; }
 
-li {
-  list-style: none;
-}
+li { list-style: none; }
 
-.topbar {
-  width: 100%;
-  border-bottom: 1px solid gray;
-}
-.topbar nav {
-  width: 62.5rem;
-  margin: 0% auto;
-  display: flex;
-  justify-content: space-between;
-  font-weight: bold;
-  bottom: 50%;
-}
-.topbar nav .topLeft *, .topbar nav .topRight * {
-  overflow: hidden;
-  float: left;
-  margin-right: 1.875rem;
-  overflow: hidden;
-}
-.topbar nav #search {
-  position: relative;
-  left: 30px;
-  width: 20px;
-}
-.topbar nav img {
-  width: 9.375rem;
-}
-.topbar nav div > div {
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
+a { text-decoration: none; }
 
-.find {
-  text-align: center;
-  width: 50%;
-  margin: 10px auto;
-}
-.find .findActive {
-  color: red;
-  border-bottom: 5px solid red;
-}
-.find p {
-  font-size: 40px;
-}
-.find .findClass > span {
-  display: inline-block;
-  width: 130px;
-  padding: 10px;
-}
+.topbar { width: 100%; border-bottom: 1px solid gray; }
 
-.kuwanInfo {
-  margin-top: -10px;
-  width: 100%;
-  background-color: #dad8d8;
-}
-.kuwanInfo .kuwanGoods, .kuwanInfo .kuwanGoods1, .kuwanInfo .kuwanGoods2 {
-  width: 62.5rem;
-  margin: 0% auto;
-  overflow: hidden;
-}
-.kuwanInfo .kuwanGoods .banner, .kuwanInfo .kuwanGoods1 .banner, .kuwanInfo .kuwanGoods2 .banner {
-  margin-top: 20px;
-  border-radius: 5px;
-  background: white;
-  padding-top: 20px;
-}
-.kuwanInfo .kuwanGoods .banner #title, .kuwanInfo .kuwanGoods1 .banner #title, .kuwanInfo .kuwanGoods2 .banner #title {
-  font-size: 20px;
-  padding: 0px 20px;
-  line-height: 25px;
-  border-left: 5px solid red;
-}
-.kuwanInfo .kuwanGoods .banner hr, .kuwanInfo .kuwanGoods1 .banner hr, .kuwanInfo .kuwanGoods2 .banner hr {
-  position: relative;
-  top: -50px;
-  border: 1px dashed;
-}
-.kuwanInfo .kuwanGoods .banner .bTop > div, .kuwanInfo .kuwanGoods1 .banner .bTop > div, .kuwanInfo .kuwanGoods2 .banner .bTop > div {
-  margin: 0px 20px;
-  text-align: center;
-  float: left;
-}
-.kuwanInfo .kuwanGoods .banner .bBottom > div, .kuwanInfo .kuwanGoods1 .banner .bBottom > div, .kuwanInfo .kuwanGoods2 .banner .bBottom > div {
-  margin: 0px 10px;
-  text-align: center;
-  float: left;
-}
-.kuwanInfo .kuwanGoods .goods, .kuwanInfo .kuwanGoods1 .goods, .kuwanInfo .kuwanGoods2 .goods {
-  float: left;
-  background: white;
-  border-radius: 5px;
-  width: 230px;
-  height: 230px;
-  margin: 10px;
-  overflow: hidden;
-}
-.kuwanInfo .kuwanGoods .goods p, .kuwanInfo .kuwanGoods1 .goods p, .kuwanInfo .kuwanGoods2 .goods p {
-  height: 30px;
-  font-weight: bold;
-  margin-left: 10px;
-  font-size: 12px;
-}
-.kuwanInfo .kuwanGoods .goods #goodsPri, .kuwanInfo .kuwanGoods1 .goods #goodsPri, .kuwanInfo .kuwanGoods2 .goods #goodsPri {
-  margin-left: 10px;
-  color: red;
-  font-size: 20px;
-}
-.kuwanInfo .kuwanGoods .goods img, .kuwanInfo .kuwanGoods1 .goods img, .kuwanInfo .kuwanGoods2 .goods img {
-  width: 230px;
-  border-radius: 5px 5px 0px 0px;
-}
-.kuwanInfo .kuwanGoods .goods div, .kuwanInfo .kuwanGoods1 .goods div, .kuwanInfo .kuwanGoods2 .goods div {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.kuwanInfo .kuwanGoods .goods div div, .kuwanInfo .kuwanGoods1 .goods div div, .kuwanInfo .kuwanGoods2 .goods div div {
-  line-height: 30px;
-  width: 50%;
-  justify-content: end;
-  margin-right: 10px;
-}
-.kuwanInfo .kuwanGoods .goods div div span, .kuwanInfo .kuwanGoods1 .goods div div span, .kuwanInfo .kuwanGoods2 .goods div div span {
-  color: #a7a4a5;
-}
-.kuwanInfo .kuwanGoods .goods div .like, .kuwanInfo .kuwanGoods1 .goods div .like, .kuwanInfo .kuwanGoods2 .goods div .like {
-  position: relative;
-  top: 8px;
-  width: 15px;
-  height: 15px;
-}
-.kuwanInfo #more {
-  color: red;
-  line-height: 150px;
-  font-size: 20px;
-  width: 100%;
-  text-align: center;
-}
+.topbar nav { width: 62.5rem; margin: 0% auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; font-weight: bold; bottom: 50%; }
 
-.bottom {
-  width: 100%;
-  background: #505050;
-}
-.bottom .content {
-  padding-top: 40px;
-  width: 62.5rem;
-  margin: 0% auto;
-  overflow: hidden;
-}
-.bottom .content div {
-  color: #a7a4a5;
-  font-size: 11px;
-  float: left;
-  width: 155px;
-}
-.bottom .content div li {
-  margin-bottom: 20px;
-}
-.bottom .content div span {
-  display: inline-block;
-  font-size: 20px;
-  color: white;
-  margin-bottom: 30px;
-}
-.bottom .content div .yqlj > li {
-  margin-bottom: -30px;
-}
-.bottom .content div .yqlj > li span {
-  width: 50%;
-  color: #a7a4a5;
-  font-size: 11px;
-}
-.bottom .content div .gmgl > li {
-  margin-bottom: 0px;
-}
-.bottom #end {
-  margin-top: 80px;
-  padding-bottom: 10px;
-  text-align: center;
-  color: #a7a4a5;
-}/*# sourceMappingURL=module.css.map */
+.topbar nav .topLeft *, .topbar nav .topRight * { overflow: hidden; float: left; margin-right: 1.875rem; overflow: hidden; }
+
+.topbar nav #search { position: relative; left: 30px; width: 20px; }
+
+.topbar nav img { width: 9.375rem; }
+
+.topbar nav div > div { margin-top: 30px; margin-bottom: 15px; }
+
+.find { text-align: center; width: 50%; margin: 10px auto; }
+
+.find .findActive { color: red; border-bottom: 5px solid red; }
+
+.find p { font-size: 40px; }
+
+.find .findClass > span { display: inline-block; width: 130px; padding: 10px; }
+
+.kuwanInfo { margin-top: -10px; width: 100%; background-color: #dad8d8; }
+
+.kuwanInfo .kuwanGoods, .kuwanInfo .kuwanGoods1, .kuwanInfo .kuwanGoods2 { width: 62.5rem; margin: 0% auto; overflow: hidden; }
+
+.kuwanInfo .kuwanGoods .banner, .kuwanInfo .kuwanGoods1 .banner, .kuwanInfo .kuwanGoods2 .banner { margin-top: 20px; border-radius: 5px; background: white; padding-top: 20px; }
+
+.kuwanInfo .kuwanGoods .banner #title, .kuwanInfo .kuwanGoods1 .banner #title, .kuwanInfo .kuwanGoods2 .banner #title { font-size: 20px; padding: 0px 20px; line-height: 25px; border-left: 5px solid red; }
+
+.kuwanInfo .kuwanGoods .banner hr, .kuwanInfo .kuwanGoods1 .banner hr, .kuwanInfo .kuwanGoods2 .banner hr { position: relative; top: -50px; border: 1px dashed; }
+
+.kuwanInfo .kuwanGoods .banner .bTop > div, .kuwanInfo .kuwanGoods1 .banner .bTop > div, .kuwanInfo .kuwanGoods2 .banner .bTop > div { margin: 0px 20px; text-align: center; float: left; }
+
+.kuwanInfo .kuwanGoods .banner .bBottom > div, .kuwanInfo .kuwanGoods1 .banner .bBottom > div, .kuwanInfo .kuwanGoods2 .banner .bBottom > div { margin: 0px 10px; text-align: center; float: left; }
+
+.kuwanInfo .kuwanGoods .goods, .kuwanInfo .kuwanGoods1 .goods, .kuwanInfo .kuwanGoods2 .goods { float: left; background: white; border-radius: 5px; width: 230px; height: 230px; margin: 10px; overflow: hidden; }
+
+.kuwanInfo .kuwanGoods .goods p, .kuwanInfo .kuwanGoods1 .goods p, .kuwanInfo .kuwanGoods2 .goods p { height: 30px; font-weight: bold; margin-left: 10px; font-size: 12px; }
+
+.kuwanInfo .kuwanGoods .goods #goodsPri, .kuwanInfo .kuwanGoods1 .goods #goodsPri, .kuwanInfo .kuwanGoods2 .goods #goodsPri { margin-left: 10px; color: red; font-size: 20px; }
+
+.kuwanInfo .kuwanGoods .goods img, .kuwanInfo .kuwanGoods1 .goods img, .kuwanInfo .kuwanGoods2 .goods img { width: 230px; border-radius: 5px 5px 0px 0px; }
+
+.kuwanInfo .kuwanGoods .goods div, .kuwanInfo .kuwanGoods1 .goods div, .kuwanInfo .kuwanGoods2 .goods div { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.kuwanInfo .kuwanGoods .goods div div, .kuwanInfo .kuwanGoods1 .goods div div, .kuwanInfo .kuwanGoods2 .goods div div { line-height: 30px; width: 50%; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: end; margin-right: 10px; }
+
+.kuwanInfo .kuwanGoods .goods div div span, .kuwanInfo .kuwanGoods1 .goods div div span, .kuwanInfo .kuwanGoods2 .goods div div span { color: #a7a4a5; }
+
+.kuwanInfo .kuwanGoods .goods div .like, .kuwanInfo .kuwanGoods1 .goods div .like, .kuwanInfo .kuwanGoods2 .goods div .like { position: relative; top: 8px; width: 15px; height: 15px; }
+
+.kuwanInfo #more { color: red; line-height: 150px; font-size: 20px; width: 100%; text-align: center; }
+
+.bottom { width: 100%; background: #505050; }
+
+.bottom .content { padding-top: 40px; width: 62.5rem; margin: 0% auto; overflow: hidden; }
+
+.bottom .content div { color: #a7a4a5; font-size: 11px; float: left; width: 155px; }
+
+.bottom .content div li { margin-bottom: 20px; }
+
+.bottom .content div span { display: inline-block; font-size: 20px; color: white; margin-bottom: 30px; }
+
+.bottom .content div .yqlj > li { margin-bottom: -30px; }
+
+.bottom .content div .yqlj > li span { width: 50%; color: #a7a4a5; font-size: 11px; }
+
+.bottom .content div .gmgl > li { margin-bottom: 0px; }
+
+.bottom #end { margin-top: 80px; padding-bottom: 10px; text-align: center; color: #a7a4a5; }
