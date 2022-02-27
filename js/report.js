@@ -9,14 +9,14 @@ $(function(){
                         <div class="report-div2">
                             <div class="report-div2-left">
                                 <div class="report-div2-left-1">
-                                    <img src="/img/tx.jpg">
+                                    <img src="../img/tx.jpg">
                                 </div>
                                 <span>苏苏</span>
                                 <div class="report-div2-left-2">2016-01-25</div>
                             </div>
                             <div class="report-div2-right">
-                                <img src="/img/zan.png">3
-                                <img src="/img/reply.png">3
+                                <img src="../img/zan.png">3
+                                <img src="../img/reply.png">3
                             </div>
                         </div>
                     </div>
@@ -39,14 +39,14 @@ $(function(){
                         <div class="report-div2">
                             <div class="report-div2-left">
                                 <div class="report-div2-left-1">
-                                    <img src="/img/tx.jpg">
+                                    <img src="../img/tx.jpg">
                                 </div>
                                 <span>苏苏</span>
                                 <div class="report-div2-left-2">2016-01-25</div>
                             </div>
                             <div class="report-div2-right">
-                                <img src="/img/zan.png">3
-                                <img src="/img/reply.png">3
+                                <img src="../img/zan.png">3
+                                <img src="../img/reply.png">3
                             </div>
                         </div>
                     </div>
