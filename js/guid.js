@@ -10,8 +10,8 @@ $(function(){
                         <span class="guid-box-span">${$(a)[i].text}</span>
                         <div class="guid-box-div1">
                             <div>
-                                <img src="/img/xin.png">3
-                                <img src="/img/reply.png">3
+                                <img src="../img/xin.png">3
+                                <img src="../img/reply.png">3
                             </div>
                         </div>
                     </div>
@@ -26,8 +26,8 @@ $(function(){
                         <span class="guid-box-span">${$(a)[i+2].text}</span>
                         <div class="guid-box-div1">
                             <div>
-                                <img src="/img/xin.png">3
-                                <img src="/img/reply.png">3
+                                <img src="../img/xin.png">3
+                                <img src="../img/reply.png">3
                             </div>
                         </div>
                     </div>
@@ -47,8 +47,8 @@ $(function(){
                         <span class="guid-box-span">${$(a)[i].text}</span>
                         <div class="guid-box-div1">
                             <div>
-                                <img src="/img/xin.png">3
-                                <img src="/img/reply.png">3
+                                <img src="../img/xin.png">3
+                                <img src="../img/reply.png">3
                             </div>
                         </div>
                     </div>
@@ -63,8 +63,8 @@ $(function(){
                         <span class="guid-box-span">${$(a)[i+2].text}</span>
                         <div class="guid-box-div1">
                             <div>
-                                <img src="/img/xin.png">3
-                                <img src="/img/reply.png">3
+                                <img src="../img/xin.png">3
+                                <img src="../img/reply.png">3
                             </div>
                         </div>
                     </div>
@@ -93,8 +93,8 @@ $(function(){
                         <span class="guid-box-span">${$(a)[i].text}</span>
                         <div class="guid-box-div1">
                             <div>
-                                <img src="/img/xin.png">3
-                                <img src="/img/reply.png">3
+                                <img src="../img/xin.png">3
+                                <img src="../img/reply.png">3
                             </div>
                         </div>
                     </div>
@@ -118,8 +118,8 @@ $(function(){
                         <span class="guid-box-span">${$(a)[i].text}</span>
                         <div class="guid-box-div1">
                             <div>
-                                <img src="/img/xin.png">3
-                                <img src="/img/reply.png">3
+                                <img src="../img/xin.png">3
+                                <img src="../img/reply.png">3
                             </div>
                         </div>
                     </div>
