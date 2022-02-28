@@ -99,4 +99,10 @@ $(function(){
     // $(state.banner).click(function(){
     //     $(this).children().find('#vip').parent().hide()
     // })
+    function arr(){
+        $(state.banner).click(function(){
+            window.location.href='useingInfo.html';
+        })
+    }
+    arr();
 })

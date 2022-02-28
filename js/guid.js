@@ -131,4 +131,9 @@ $(function(){
 
 
 
+    $('.guid-box-ul').click(function(){
+        window.location.href='guid-product.html';
+    })
+
+
 })

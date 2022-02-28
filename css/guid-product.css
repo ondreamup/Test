@@ -99,3 +99,5 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-or
 .index-bot .index-bottom ul .index-bot-li-1 ul { width: 150px; padding: 0; padding-top: 30px; }
 
 .index-bot .index-bottom ul .index-bot-li-1 ul li { width: 167px; font-size: 13px; color: #787272; }
+
+.guid-product-2-right-share { padding: 0 10px; }

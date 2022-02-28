@@ -17,5 +17,16 @@ $(function(){
         }
     })
 
+    $('.guid-product-share').click(function(){
+        $('.guid-product-share').hide();
+        $('.guid-product-2-right-share').show();
+    })
+
+
+
+
+
+
+
 
 })

@@ -105,6 +105,23 @@ $(function(){
             });
             // console.log($(a),ar,aar,aaar);
             window.location.href="record.html";
+            // $.ajax({
+            //     url:'http://192.168.31.110:3000/users/register',
+            //     type:'post',  
+            //     global:false,  //异步
+            //     date:{
+            //         phone:ar,
+            //         name:aar,
+            //         password:aaar 
+            //     },
+            //     success:function(){
+            //         console.log('aa');
+            //     }
+
+            // })
+            // $.post('http://192.168.31.110:3000/users/register',function(a){
+            //     console.log($(a));
+            // })
         }
         
         
